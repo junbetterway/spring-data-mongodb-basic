@@ -18,7 +18,7 @@ The approach I did is to create a collection (see [DatabaseSequence](https://git
 docker-compose up
 ```
 
-*__Note:__ Make sure no errors are present on the logs such as connection refused etc. Now go to your browser and access __http://localhost:8081/__ for the Mongo Express. The user credentials are listed in the __docker-compose.yml__ - see values for __ME_CONFIG_BASICAUTH_USERNAME__ and __ME_CONFIG_BASICAUTH_PASSWORD=password__.*
+*__Note:__ Make sure no errors are present on the logs such as connection refused etc. Now go to your browser and access __http://localhost:8081/__ for the Mongo Express. The user credentials are listed in the __docker-compose.yml__ - see values for __ME_CONFIG_BASICAUTH_USERNAME__ and __ME_CONFIG_BASICAUTH_PASSWORD__.*
 
 ## Run the Spring Boot Application Using Spring Tool Suite (STS)
 1. Download STS version 3.4.* (or better) from the [Spring website](https://spring.io/tools). STS is a free Eclipse bundle with many features useful for Spring developers.
